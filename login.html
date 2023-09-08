@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<style>
+    body {
+    background: #67ae45;
+    font-family: "Raleway", sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+</style>
+<body>
+
+    <div class="login-container">
+        <div class="login-form">
+            <div class="login-form-inner">
+                <div class="logo">
+                    <a href="javascript:void(0);">
+                        <img src="assets/img/logo.webp" alt="logo">
+                    </a>
+                </div>
+                <h1>Login</h1>
+                <div class="login-form-group">
+                    <label for="email">Country <span class="required-star">*</span></label>
+                    <select>
+                        <option>English</option>
+                        <option>Japan</option>
+                        <option>Korea</option>
+                        <option>Germany</option>
+                    </select>
+                </div>
+
+                <div class="login-form-group">
+                    <label for="email">User Name <span class="required-star">*</span></label>
+                    <input type="text" placeholder="email@website.com" id="email">
+                </div>
+                <div class="login-form-group">
+                    <label for="pwd">Password <span class="required-star">*</span></label>
+                    <input autocomplete="off" type="text" placeholder="Minimum 8 characters" id="pwd">
+                </div>
+
+                <div class="login-form-group single-row">
+                    <a href="#" class="link forgot-link">Forgot Password ?</a>
+                </div>
+
+                <div class="login_btn">
+                    <a href="index.html" class="rounded-button login-cta">Sign In</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="onboarding">
+            <div class="swiper-container">
+                <div class="slide-image">
+                    <img src="assets/img/login_img.svg" loading="lazy" alt="login_img" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="assets/js/jquery.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
